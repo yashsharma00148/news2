@@ -24,9 +24,7 @@ const fetchdata= async(keyword)=>{
              article.description=article.description.slice(0,200)+"..."
          }
          console.log(data)
-         if(data==[]){
-            alert("hello")
-         }
+         
         
         
         news_card.innerHTML=`
